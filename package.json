@@ -1,7 +1,7 @@
 {
   "name": "ugville-marketplace-automation",
   "version": "1.0.0",
-  "description": "Ugville Marketplace module \u2014 standalone Playwright E2E Test Automation (POM Framework), split out of ugville-automation",
+  "description": "Ugville Marketplace module — standalone Playwright E2E Test Automation (POM Framework), split out of ugville-automation",
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
@@ -57,6 +57,7 @@
     "typescript-eslint": "8.72.0"
   },
   "dependencies": {
-    "allure": "^3.21.0"
+    "allure": "^3.21.0",
+    "playwright": "^1.64.1"
   }
 }
